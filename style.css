@@ -1,6 +1,7 @@
 html {
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 body{
     background:
@@ -41,4 +42,33 @@ body{
     margin-top: 8vh;
     width: 250px;  
     color: lightsalmon;
+}
+
+.row {
+    margin-top: 8vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+.section{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.line{
+    border-left: 3px solid;
+    color: rgb(255, 255, 255, .1);
+    height: 8vh;
+}
+
+.light{
+    color: lightslategrey;
+ 
+}
+
+.dark{
+    color: lightgrey;
 }
